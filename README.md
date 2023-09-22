@@ -12,7 +12,7 @@ The project is organized as follows:
 
 - `SentimentAnalysisModel.ipynb`: Jupyter Notebook that focuses on sentiment analysis using pre-trained models from Hugging Face's Transformers library. It loads the cleaned dataset from `DataAnalyzer.ipynb` and performs sentiment predictions using RoBERTa-based models.
 
-- `Data_for_model` directory consists of training and testing data. 
+- `Data_for_model` directory consists of training and testing data after running `DataAnalyzer.ipynb`.  
 
 ## Usage
 
@@ -24,13 +24,13 @@ The project is organized as follows:
 
 2. Install the required dependencies. You can use `conda`:
 
-3. Place the Amazon's Food Reviews Dataset CSV file (e.g., `Reviews.csv`).
+3. Place the Amazon's Food Reviews Dataset CSV file (e.g., `Reviews.csv`) in the directory of the repo (download it from the link given above).
 
 4. Open and run `DataAnalyzer.ipynb` to perform EDA and data cleaning. This will prepare the dataset for sentiment analysis.
 
 5. Open and run `SentimentAnalysisModel.ipynb` to load the pre-trained RoBERTa-based model and perform sentiment predictions on the cleaned dataset.
 
-6. `Cleaned_Data.csv` contains the cleaned processed data. 
+6. `Cleaned_Data.csv` (exported after running `DataAnalyzer.ipynb`) contains the cleaned processed data. 
 
 
 ## Acknowledgments
