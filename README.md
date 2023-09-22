@@ -18,10 +18,6 @@ The project is organized as follows:
 
 1. Clone this repository to your local machine:
 
-   ```shell
-   git clone https://github.com/yourusername/sentiment-analysis-roberta.git
-   ```
-
 2. Install the required dependencies. You can use `conda`:
 
 3. Place the Amazon's Food Reviews Dataset CSV file (e.g., `Reviews.csv`) in the directory of the repo (download it from the link given above).
