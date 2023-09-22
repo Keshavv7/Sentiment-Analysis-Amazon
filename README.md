@@ -2,7 +2,7 @@
 
 This repository contains code and data for performing sentiment analysis on Amazon's Food Reviews Dataset using a RoBERTa-based model. The project is divided into two main parts: Exploratory Data Analysis (EDA) and Data Cleaning in `DataAnalyzer.ipynb`, and Sentiment Analysis Model Training and Inference in `SentimentAnalysisModel.ipynb`.
 
-[**Click here to find more about the dataset:**](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+[**Click here to download the dataset:**](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 
 ## Project Structure
 
